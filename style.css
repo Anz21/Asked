@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(210, 36%, 96%);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:150px;
+}
+
+.main-line{
+    margin-top:50px;
+    width: 620px;
+    background-color: #fff;
+    border-radius: 8px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.quest{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.answer{
+    margin-top:30px ;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.ann{
+    display: none;
+}
+
+.answer p{
+    margin-top: 20px;
+    width: 80%;
+}
+
+.showQ{
+    display: flex;
+    transition: 0.7s ease-in;
+}
+
+.questheight {
+    height: 170px;
+    
+}
+
+button{
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 2px solid #c59d5f;
+    color: #c59d5f;
+    transform: rotate(180deg);
+    transition: all 0.3s linear;
+}
+
+p{
+    color:hsl(210, 22%, 49%);
+    letter-spacing: 0.25rem;
+
+}
+
+h1{
+    letter-spacing: 3px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color:#c59d5f;
+}
+
